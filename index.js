@@ -71,7 +71,7 @@ function startOver(){
     $("#level-title").text("Press Any Key to Start")
 }
 
-$(document).keypress(function(event){
+$("#start-btn").click(function(){
     if (!gamePlay) {
         gameRules();
         setTimeout(function() {
