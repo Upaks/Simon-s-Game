@@ -51,3 +51,27 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+#start-btn {
+  font-size: 24px; 
+  padding: 15px 30px; 
+  background-color: #4CAF50; 
+  color: white; 
+  border: none; 
+  border-radius: 12px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+#start-btn:hover {
+  background-color: #45a049;
+}
+
+#start-btn:active {
+  background-color: #3e8e41; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+#start-btn:focus {
+  outline: none; 
+}
