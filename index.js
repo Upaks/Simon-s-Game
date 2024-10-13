@@ -68,7 +68,7 @@ function startOver(){
     gamePattern = [];
     userClickedPattern = [];
     gamePlay = false;
-    $("#level-title").text("Game Over!, Try Again!")
+    $("#level-title").text("Press Start Button To Begin")
 }
 
 $("#start-btn").click(function(){
